@@ -17,7 +17,7 @@ app.on('window-all-closed', () => {
 });
 
 app.on('activate', () => {
-    if(mainWindow === null) {
+    if(win === null) {
         createWindow();
     } // macOS
 });
